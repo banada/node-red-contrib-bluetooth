@@ -12,7 +12,7 @@ node-red
 
 Input a MAC address with the topic 'address' to start connecting
 
-![Alt text](https://github.com/banada/node-red-contrib-bluetooth-serial/blob/master/doc/screenshot2.png)
+<img align="center" src="https://github.com/banada/node-red-contrib-bluetooth-serial/blob/master/doc/screenshot2.png">
 
 ## Dependencies
 

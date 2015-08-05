@@ -17,7 +17,9 @@
     "url": "https://github.com/banada/node-red-contrib-bluetooth-serial"
   },
   "keywords": [
-    "node-red"
+    "node-red",
+    "bluetooth",
+    "serial"
   ],
   "node-red": {
     "nodes": {
