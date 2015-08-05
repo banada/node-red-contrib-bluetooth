@@ -4,7 +4,7 @@ A Node-RED node to send and receive messages over Bluetooth Classic serial. This
 ## Usage
 
 ```
-npm install node-red-contrib-bluetooth-serial
+npm install node-red-contrib-bluetooth
 node-red
 ```
 
