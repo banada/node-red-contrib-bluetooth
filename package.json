@@ -1,0 +1,16 @@
+{
+    "name": "node-red-contrib-bluetooth-serial",
+    "version": "0.0.1",
+    "description": "A Node-RED node for sending messages over Bluetooth Classic serial",
+    "dependencies": {
+        "bluetooth-serial-port": "*"
+    },
+    "keywords": [
+        "node-red"
+    ],
+    "node-red": {
+        "nodes": {
+            "bluetooth-serial": "bluetooth-serial.js"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+<script type="text/javascript">
+    RED.nodes.registerType('bt-serial-write', {
+        category: 'bluetooth',
+        color: '#E2D96E',
+        defaults: {
+            name: {value: "", required: false},
+            btaddress: {value: "", required: false},
+            btname: {value: "", required: false}
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "light.png",
+        label: function() {
+            return this.name || "BT Serial";
+        }
+    });
+</script>
+
+<script type="text/xred" data-template-name="bt-serial-write">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-btaddress"><i class="fa fa-tag"></i> BT Address</label>
+        <input type="text" id="node-input-btaddress" placeholder="BT Address">
+    </div>
+    <div class="form-row">
+        <label for="node-input-btname"><i class="fa fa-tag"></i> BT Name</label>
+        <input type="text" id="node-input-btname" placeholder="BT Name">
+    </div>
+</script>
+
+<script type="text/xred" data-help-name="bt-serial-write">
+    <p>A Node-RED node for writing from serial over Bluetooth</p>
+</script>
