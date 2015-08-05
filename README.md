@@ -8,11 +8,11 @@ npm install node-red-contrib-bluetooth-serial
 node-red
 ```
 
-![Alt text](https://github.com/banada/node-red-contrib-bluetooth-serial/blob/master/doc/screenshot1.png)
+<img align="center" height="297" src="https://github.com/banada/node-red-contrib-bluetooth-serial/blob/master/doc/screenshot1.png"
 
 Input a MAC address with the topic 'address' to start connecting
 
-<img align="center" src="https://github.com/banada/node-red-contrib-bluetooth-serial/blob/master/doc/screenshot2.png">
+<img align="center" height="465" src="https://github.com/banada/node-red-contrib-bluetooth-serial/blob/master/doc/screenshot2.png">
 
 ## Dependencies
 
