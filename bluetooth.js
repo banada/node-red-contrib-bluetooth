@@ -52,5 +52,5 @@ module.exports = function(RED) {
         this.on('close', function() {
         });
     }
-    RED.nodes.registerType("bt-serial-write", WriteBTSerial);
+    RED.nodes.registerType("bluetooth", WriteBTSerial);
 }

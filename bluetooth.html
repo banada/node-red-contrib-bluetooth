@@ -1,5 +1,5 @@
 <script type="text/javascript">
-    RED.nodes.registerType('bt-serial-write', {
+    RED.nodes.registerType('bluetooth', {
         category: 'bluetooth',
         color: '#E2D96E',
         defaults: {
@@ -11,12 +11,12 @@
         outputs: 1,
         icon: "light.png",
         label: function() {
-            return this.name || "BT Serial";
+            return this.name || "Bluetooth Serial";
         }
     });
 </script>
 
-<script type="text/xred" data-template-name="bt-serial-write">
+<script type="text/xred" data-template-name="bluetooth">
     <div class="form-row">
         <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
         <input type="text" id="node-input-name" placeholder="Name">
@@ -31,6 +31,6 @@
     </div>
 </script>
 
-<script type="text/xred" data-help-name="bt-serial-write">
+<script type="text/xred" data-help-name="bluetooth">
     <p>A Node-RED node for writing from serial over Bluetooth</p>
 </script>
