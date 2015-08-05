@@ -1,16 +1,32 @@
 {
-    "name": "node-red-contrib-bluetooth-serial",
-    "version": "0.0.1",
-    "description": "A Node-RED node for sending messages over Bluetooth Classic serial",
-    "dependencies": {
-        "bluetooth-serial-port": "*"
-    },
-    "keywords": [
-        "node-red"
-    ],
-    "node-red": {
-        "nodes": {
-            "bluetooth-serial": "bluetooth-serial.js"
-        }
+  "name": "node-red-contrib-bluetooth-serial",
+  "version": "0.0.1",
+  "description": "A Node-RED node for sending messages over Bluetooth Classic serial",
+  "dependencies": {
+    "bluetooth-serial-port": "*"
+  },
+  "main": "bluetooth-serial.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/banada/node-red-contrib-bluetooth-serial"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "node-red": {
+    "nodes": {
+      "bluetooth-serial": "bluetooth-serial.js"
     }
+  },
+  "author": "Nathaniel Chen <nathanielchen1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/banada/node-red-contrib-bluetooth-serial/issues"
+  }
 }
